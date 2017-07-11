@@ -59,7 +59,7 @@ function timers(obj) {
       this.n_sec = 0;
       this.n_min = 0;
       this.n_hour = 0;
-      this.n_timer();
+      a = this.n_timer();
       this.state = 'on';
     }
 }
