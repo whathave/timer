@@ -4,6 +4,7 @@
 * 初始化计时器
 ```javascript
 var a = new timers({
+    //计时时进行的操作
     func: function(x) {
         console.log(x);
     }
