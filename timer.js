@@ -39,7 +39,7 @@ function timers(obj) {
         self.n_min++;
       }
       if (self.n_min > 59) {
-        self.n_sec = 0;
+        self.n_min = 0;
         self.n_hour++;
       }
     }, 1000);
